@@ -1,7 +1,8 @@
 --!nocheck
-n,x,i,v=io.read"*n"
+r=io.read
+n,x,i,v=r"*n"
 for _=1, n do
-    v=io.read"*n"
+    v=r"*n"
     x=(x and x>v)and x or v
     i=(i and i<v)and i or v 
 end
