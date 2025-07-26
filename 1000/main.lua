@@ -1,3 +1,3 @@
 --!nocheck
 r=io.read
-print(r"*n")
+print(r"*n"+r"*n")
